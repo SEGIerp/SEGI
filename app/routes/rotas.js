@@ -11,4 +11,17 @@ module.exports = function (app) {
         response.render('Exemplo'); 
         connection.end();
     });
+
+    /* --------------------------------exemplo rota com post(incompleto, precisa baixar e instalar o framework)
+    app.post('/SEGI', function (request, response) {
+        
+        var body = request.body
+
+        var connection = app.infra.connectionFactory;
+
+   
+        response.render('Exemplo'); 
+        connection.end();
+    });
+    */
 }
